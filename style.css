@@ -4,7 +4,7 @@ ul {
   padding: 0px;
 }
 
-body{background-color: black;background-image: url(imagens/programador.jpg);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
+body{background-color: black;background-image: url(imagens/pexels-junior.jpg);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
 
 .ns {margin: auto;  background-color: #e6000000; width: 100px; height: 250px;}
 
@@ -12,12 +12,7 @@ body{background-color: black;background-image: url(imagens/programador.jpg);back
 
 button {display: flex; margin: auto; padding: 20px;background-color: rgb(255, 255, 255);color: rgb(255, 255, 255); font-size:15px;}
 
-.f {text-align: center;font-size: 50px;background-color: rgba(252, 252, 255, 0.693);color: rgb(255, 255, 255); color: #000;
-  text-shadow: 
-           -1px -1px 0px #FFF, 
-           -1px 1px 0px #FFF,                    
-            1px -1px 0px #FFF,                  
-            1px 0px 0px #FFF; }
+.f {text-align: center;font-size: 50px;;color: rgb(255, 255, 255); color: rgb(255, 255, 255);}
 
 a {
   color: rgb(255, 255, 255);
