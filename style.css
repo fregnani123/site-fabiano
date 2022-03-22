@@ -10,9 +10,14 @@ body{background-color: black;background-image: url(imagens/programador.jpg);back
 
 #d {position: relative; font-size: 95px; height: 100px;color: rgb(0, 0, 0);border:solid #ffffff}
 
-button {display: flex; margin: auto; padding: 20px;background-color: rgb(255, 255, 255);color: rgb(0, 0, 0); font-size:15px;}
+button {display: flex; margin: auto; padding: 20px;background-color: rgb(255, 255, 255);color: rgb(255, 255, 255); font-size:15px;}
 
-.inscrever {text-align: center;font-size: 50px;background-color: white;}
+.f {text-align: center;font-size: 50px;background-color: rgba(252, 252, 255, 0.693);color: rgb(255, 255, 255); color: #000;
+  text-shadow: 
+           -1px -1px 0px #FFF, 
+           -1px 1px 0px #FFF,                    
+            1px -1px 0px #FFF,                  
+            1px 0px 0px #FFF; }
 
 a {
   color: rgb(255, 255, 255);
@@ -63,7 +68,7 @@ img{  height: 65px;
     width: 100%;
     top: 70px;
     right: 0px;
-    background: #000000;
+    background: #2822a7;
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
