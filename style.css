@@ -4,15 +4,20 @@ ul {
   padding: 0px;
 }
 
-body{background-color: black;background-image: url(imagens/pexels-junior.jpg);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
+body{background-color: black;background-image: url(imagens/virtual.jpg);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
 
 .ns {margin: auto;  background-color: #e6000000; width: 100px; height: 250px;}
 
 #d {position: relative; font-size: 95px; height: 100px;color: rgb(0, 0, 0);border:solid #ffffff}
 
+.logo { height: 90px;}
+
 button {display: flex; margin: auto; padding: 20px;background-color: rgb(255, 255, 255);color: rgb(255, 255, 255); font-size:15px;}
 
-.f {text-align: center;font-size: 50px;;color: rgb(255, 255, 255); color: rgb(255, 255, 255);}
+.f {margin-top: 120px;text-align: center;font-size: 50px;;color: rgb(255, 255, 255); color: rgb(255, 255, 255);}
+
+#section {text-align: center;}
+.perfil {height: 200px; margin-top: -15px;}
 
 a {
   color: rgb(255, 255, 255);
@@ -20,25 +25,17 @@ a {
   font-family: sans-serif;
 }
 
-a:hover {
-  background: rgba(0, 0, 0, 0.05);
+a:hover {border-radius: 5px;
+  background: rgba(255, 255, 255, 0.029);
 }
-
-img{  height: 65px;
-  
-  /*font-size: 1.5rem;
-	font-weight: bold;*/
-
-}
-
-#header {
-  box-sizing: border-box;
+ 
+#header {margin-top: 20px;
   height: 70px;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #2f00ff;
+  background: #020202;
 }
 
 #menu { 
@@ -60,29 +57,29 @@ img{  height: 65px;
   #menu {
     display: block;
     position: absolute;
-    width: 100%;
-    top: 70px;
+    width:100% ;
+    top: 80;
     right: 0px;
-    background: #2822a7;
+    background: #000000;
     transition: 0.6s;
     z-index: 1000;
-    height: 0px;
+    height: 0;
     visibility: hidden;
     overflow-y: hidden;
   }
   #nav.active #menu {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 122px);
     visibility: visible;
     overflow-y: auto;
   }
   #menu a {
     padding: 1rem 0;
     margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.055);
   }
   #btn-mobile {color: #ffffff;
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: 42px 1rem;
     font-size: 1rem;
     border: none;
     background: none;
