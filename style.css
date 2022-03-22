@@ -3,7 +3,8 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-body{background-color: black;}
+
+body{background-color: black;background-image: url(imagens/programador.jpg);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
 
 .ns {margin: auto;  background-color: #e6000000; width: 100px; height: 250px;}
 
