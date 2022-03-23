@@ -4,13 +4,13 @@ ul {
   padding: 0px;
 }
 
-body{background-color: black;background-image: url(imagens/virtual.jpg);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
+body{background-size: cover;background-repeat: no-repeat;background-color: #000000;background-image: url(imagens/pexels-junior.jpg);background-position: center center;}
 
 .logo { height: 90px;}
 
 button {display: flex; margin: auto; padding: 20px;background-color: rgb(255, 255, 255);color: rgb(255, 255, 255); font-size:15px;}
 
-.f {margin-top: 30px;text-align: center;font-size: 50px;;color: rgb(255, 255, 255); color: rgb(255, 255, 255);}
+.f {margin-top: 30px;text-align: center;font-size: 50px;;color: rgb(255, 255, 255); color: rgb(41, 170, 58);background-color: #000000;}
 
 #section {text-align: center;color: white;}
 
