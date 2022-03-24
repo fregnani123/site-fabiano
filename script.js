@@ -21,3 +21,14 @@ function sortear (){
   let ns = Math.round(Math.random () * np)
 
   document.getElementById("d").innerHTML = ns}
+
+  function mouse (m) {
+    let txt = document.querySelector('h1.f')
+    txt.style.backgroundColor = "white"
+}
+ function mouseout (){
+  let txt = document.querySelector('h1.f')
+  txt.style.backgroundColor = 'black'
+}
+  
+ 

@@ -17,7 +17,7 @@ button {display: flex; margin: auto; padding: 20px;background-color: rgb(255, 25
 
 #section {text-align: center;color: white;}
 
-P {padding: 5px;}
+P {padding: 5px;background-color: #000000;color: rgb(41,170,58);}
 
 .perfil {height: 200px; margin-top: -15px;font-family: 'Courier New', Courier, monospace;}
 
