@@ -1,2 +1,2 @@
 # Site portifólio
-https://www.fabianofregnani.cf/ 
+https://fabianofregnani.netlify.app/
